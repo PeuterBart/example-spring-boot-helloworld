@@ -21,7 +21,7 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "appuio/example-spring-boot"
+                "dockerImageRepository": "tomcc/example-spring-boot"
             },
             "status": {
                 "dockerImageRepository": ""
@@ -90,7 +90,7 @@
                         "containers": [
                             {
                                 "name": "example-spring-boot",
-                                "image": "appuio/example-spring-boot",
+                                "image": "tomcc/example-spring-boot",
                                 "ports": [
                                     {
                                         "containerPort": 8080,
