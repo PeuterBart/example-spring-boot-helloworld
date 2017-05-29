@@ -6,7 +6,7 @@ EXPOSE 8080
 
 
 LABEL io.k8s.description="Example Spring Boot App" \
-      io.k8s.display-name="APPUiO Spring Boot App" \
+      io.k8s.display-name="Agello Spring Boot App" \
       io.openshift.expose-services="8080:http" \
       io.openshift.tags="builder,springboot" \
       io.openshift.s2i.destination="/opt/s2i/destination"
