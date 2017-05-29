@@ -11,7 +11,7 @@ $ oc new-project example-spring-boot
 
 ### Docker Build on APPUiO - Create Application and expose Service
 ```
-$ oc new-app https://github.com/appuio/example-spring-boot-helloworld.git --strategy=docker --name=appuio-spring-boot-ex
+$ oc new-app https://github.com/agello/example-spring-boot-helloworld.git --strategy=docker --name=appuio-spring-boot-ex
 
 $ oc expose service appuio-spring-boot-ex
 ```
@@ -20,7 +20,7 @@ $ oc expose service appuio-spring-boot-ex
 Take the pre built image from Dockerhub
 
 ```
-$ oc new-app appuio/example-spring-boot
+$ oc new-app tomcc/example-spring-boot
 ```
 
 
