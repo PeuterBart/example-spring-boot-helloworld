@@ -22,20 +22,7 @@
                 }
             },
             "spec": {
-                "tags": [
-                    {
-                        "name": "latest",
-                        "annotations": {
-                            "openshift.io/imported-from": "tomcc/example-spring-boot"
-                        },
-                        "from": {
-                            "kind": "DockerImage",
-                            "name": "172.30.217.234:5000/tomcc-dockerimage/example-spring-boot:latest"
-                        },
-                        "generation": 2,
-                        "importPolicy": {}
-                    }
-                ]
+                "dockerImageRepository": "tomcc/example-spring-boot"
             },
             "status": {
                 "dockerImageRepository": ""
